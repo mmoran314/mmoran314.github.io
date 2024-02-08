@@ -1,0 +1,29 @@
+* {
+    outline: 1px solid black;
+  }
+  
+  main {
+    background: gainsboro;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  article {
+    background: darkcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  aside{
+    background: lightyellow;
+  }
+  aside img {
+    /* fit image to container */
+    display: block;
+    max-width: 100%;
+  
+    /* full height image. Fit to container. no stretching. */
+    height: 100vh;
+    object-fit: cover;
+  }
